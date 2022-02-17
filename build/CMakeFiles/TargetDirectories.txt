@@ -1,0 +1,7 @@
+/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/install/strip.dir
+/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/install/local.dir
+/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/edit_cache.dir
+/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/install.dir
+/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/list_install_components.dir
+/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/rebuild_cache.dir
+/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/StarterGadgets.dir

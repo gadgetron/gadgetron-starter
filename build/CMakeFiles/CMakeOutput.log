@@ -1,0 +1,459 @@
+The system is: Linux - 5.11.0-1028-azure - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/dominiquefranson/miniconda3/envs/gadgetron/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-cc 
+Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/dominiquefranson/miniconda3/envs/gadgetron/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/dominiquefranson/miniconda3/envs/gadgetron/bin/ninja cmTC_73c6f && [1/2] Building CXX object CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o
+Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-c++
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0
+Thread model: posix
+gcc version 9.4.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/cc1plus -quiet -v -iprefix /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/ -isysroot /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/dominiquefranson/miniconda3/envs/gadgetron/include /home/dominiquefranson/miniconda3/envs/gadgetron/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+GNU C++17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include"
+ignoring nonexistent directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed"
+ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/dominiquefranson/miniconda3/envs/gadgetron/include
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/x86_64-conda-linux-gnu
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/backward
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b2e66af1f6c740f65541e8407d97d3f6
+COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+[2/2] Linking CXX executable cmTC_73c6f
+Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0
+Thread model: posix
+gcc version 9.4.0 (GCC) 
+COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib' '-v' '-o' 'cmTC_73c6f' '-shared-libgcc'
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2 -plugin /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOgiDit.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_73c6f /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o -L/home/dominiquefranson/miniconda3/envs/gadgetron/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0 -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../.. -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib -rpath-link /home/dominiquefranson/miniconda3/envs/gadgetron/lib CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib' '-v' '-o' 'cmTC_73c6f' '-shared-libgcc'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/include]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/x86_64-conda-linux-gnu]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/backward]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/include]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include/c++/9.4.0]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/x86_64-conda-linux-gnu] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include/c++/9.4.0/x86_64-conda-linux-gnu]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/backward] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include/c++/9.4.0/backward]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/dominiquefranson/miniconda3/envs/gadgetron/include;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include/c++/9.4.0;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include/c++/9.4.0/x86_64-conda-linux-gnu;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include/c++/9.4.0/backward;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/dominiquefranson/miniconda3/envs/gadgetron/bin/ninja cmTC_73c6f && [1/2] Building CXX object CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/cc1plus -quiet -v -iprefix /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/ -isysroot /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/dominiquefranson/miniconda3/envs/gadgetron/include /home/dominiquefranson/miniconda3/envs/gadgetron/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [GNU C++17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/include]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/x86_64-conda-linux-gnu]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/9.4.0/backward]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b2e66af1f6c740f65541e8407d97d3f6]
+  ignore line: [COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [[2/2] Linking CXX executable cmTC_73c6f]
+  ignore line: [Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib' '-v' '-o' 'cmTC_73c6f' '-shared-libgcc']
+  link line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2 -plugin /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOgiDit.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_73c6f /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o -L/home/dominiquefranson/miniconda3/envs/gadgetron/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0 -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../.. -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib -rpath-link /home/dominiquefranson/miniconda3/envs/gadgetron/lib CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOgiDit.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_73c6f] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> ignore
+    arg [CMakeFiles/cmTC_73c6f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> ignore
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/dominiquefranson/miniconda3/envs/gadgetron/lib;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/lib;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/lib;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/dominiquefranson/miniconda3/envs/gadgetron/bin/ninja cmTC_68ca1 && [1/2] Building C object CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o
+Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-cc
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0
+Thread model: posix
+gcc version 9.4.0 (GCC) 
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o' '-c'
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/cc1 -quiet -v -iprefix /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/ -isysroot /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/dominiquefranson/miniconda3/envs/gadgetron/include /home/dominiquefranson/miniconda3/envs/gadgetron/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+GNU C17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include"
+ignoring nonexistent directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed"
+ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/dominiquefranson/miniconda3/envs/gadgetron/include
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b66c5f1f3b262354590eb80e4f764e88
+COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o' '-c'
+[2/2] Linking C executable cmTC_68ca1
+Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0
+Thread model: posix
+gcc version 9.4.0 (GCC) 
+COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib' '-v' '-o' 'cmTC_68ca1'
+ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2 -plugin /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmVqOen.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_68ca1 /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o -L/home/dominiquefranson/miniconda3/envs/gadgetron/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0 -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../.. -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib -rpath-link /home/dominiquefranson/miniconda3/envs/gadgetron/lib CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib' '-v' '-o' 'cmTC_68ca1'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/include]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/include]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/dominiquefranson/miniconda3/envs/gadgetron/include;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/include;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/dominiquefranson/miniconda3/envs/gadgetron/bin/ninja cmTC_68ca1 && [1/2] Building C object CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-cc]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/cc1 -quiet -v -iprefix /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/ -isysroot /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/dominiquefranson/miniconda3/envs/gadgetron/include /home/dominiquefranson/miniconda3/envs/gadgetron/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [GNU C17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/include]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b66c5f1f3b262354590eb80e4f764e88]
+  ignore line: [COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-v' '-o' 'CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [[2/2] Linking C executable cmTC_68ca1]
+  ignore line: [Reading specs from /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/x86_64-conda-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1643063174925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dominiquefranson/miniconda3/envs/gadgetron/include' '-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib' '-v' '-o' 'cmTC_68ca1']
+  link line: [ /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2 -plugin /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmVqOen.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_68ca1 /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o -L/home/dominiquefranson/miniconda3/envs/gadgetron/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0 -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../.. -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib -rpath-link /home/dominiquefranson/miniconda3/envs/gadgetron/lib CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o /home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmVqOen.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_68ca1] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> ignore
+    arg [CMakeFiles/cmTC_68ca1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o]
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> ignore
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o]
+  collapse obj [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/dominiquefranson/miniconda3/envs/gadgetron/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/dominiquefranson/miniconda3/envs/gadgetron/lib;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc/x86_64-conda-linux-gnu/9.4.0;/home/dominiquefranson/miniconda3/envs/gadgetron/lib/gcc;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/lib;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/lib;/home/dominiquefranson/miniconda3/envs/gadgetron/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/dominiquefranson/miniconda3/envs/gadgetron/bin/ninja cmTC_2725b && [1/2] Building C object CMakeFiles/cmTC_2725b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2725b
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/dominiquefranson/Desktop/gadgetron-starter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/dominiquefranson/miniconda3/envs/gadgetron/bin/ninja cmTC_5dd9c && [1/2] Building C object CMakeFiles/cmTC_5dd9c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5dd9c
+
+
+
