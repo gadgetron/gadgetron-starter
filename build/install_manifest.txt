@@ -1,0 +1,2 @@
+/home/dominiquefranson/miniconda3/envs/gadgetron/lib/libStarterGadgets.so
+/home/dominiquefranson/miniconda3/envs/gadgetron/share/gadgetron/config/StarterGadgets.xml

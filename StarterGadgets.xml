@@ -21,10 +21,15 @@
     </writers>
 
     <stream>
+        <!-- StarterAcquisitionChannelGadget-->
         <gadget>
-            <name>RemoveROOversampling</name>
-            <dll>gadgetron_mricore</dll>
-            <classname>RemoveROOversamplingGadget</classname>
+            <name>StarterAcquisitionChannelGadget</name>
+            <dll>StarterGadgets</dll>
+            <classname>StarterAcquisitionChannelGadget</classname>
+            <property>
+                <name>MaxAddedNoise</name>
+                <value>0.0f</value>
+            </property>
         </gadget>
 
         <gadget>
@@ -77,15 +82,22 @@
             <classname>ExtractGadget</classname>
         </gadget>
 
-        <!-- StarterGadget-->
+        <!-- StarterImageChannelGadget-->
         <gadget>
-            <name>Recon</name>
-            <dll>StarterGadget</dll>
-            <classname>StarterGadget</classname>
+            <name>StarterImageChannelGadget</name>
+            <dll>StarterGadgets</dll>
+            <classname>StarterImageChannelGadget</classname>
             <property>
-                <name>max_value</name>
-                <value>1</value>
+                <name>ImageIndexOffset</name>
+                <value>0</value>
             </property>
+        </gadget>
+
+        <!-- StarterImagePureGadget-->
+        <gadget>
+            <name>StarterImagePureGadget</name>
+            <dll>StarterGadgets</dll>
+            <classname>StarterImagePureGadget</classname>
         </gadget>
 
         <gadget>
