@@ -42,6 +42,6 @@ install(TARGETS StarterGadgets
 )
 
 # Install the gadget's xml configuration file to the proper gadgetron location
-install(FILES StarterGadgets.xml
+install(FILES config/StarterGadgets.xml
     DESTINATION ${GADGETRON_INSTALL_CONFIG_PATH} COMPONENT main
 )
