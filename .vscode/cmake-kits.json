@@ -1,0 +1,9 @@
+[
+    {
+        "name":"GCC-CONDA",
+        "compilers":{
+            "C":"${env:HOME}/anaconda3/envs/gadgetron-starter/bin/x86_64-conda_cos6-linux-gnu-gcc",
+            "CXX":"${env:HOME}/anaconda3/envs/gadgetron-starter/bin/x86_64-conda_cos6-linux-gnu-g++"
+        }
+    }
+]
