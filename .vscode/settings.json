@@ -79,7 +79,9 @@
         "forward_list": "cpp",
         "span": "cpp",
         "valarray": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
     },
     "cmake.configureOnOpen": true,
     "cmake.preferredGenerators": ["Ninja", "Unix Makefiles"],
