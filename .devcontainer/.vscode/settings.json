@@ -78,21 +78,14 @@
         "filesystem": "cpp",
         "forward_list": "cpp",
         "span": "cpp",
-        "valarray": "cpp",
-        "__nullptr": "cpp",
-        "queue": "cpp",
-        "stack": "cpp",
-        "__threading_support": "cpp",
-        "ios": "cpp",
-        "locale": "cpp",
-        "__config": "cpp"
+        "valarray": "cpp"
     },
     "cmake.configureOnOpen": true,
     "cmake.preferredGenerators": ["Ninja", "Unix Makefiles"],
-    "cmake.cmakePath": "${env:HOME}/anaconda3/envs/gadgetron-starter/bin/cmake",
+    "cmake.cmakePath": "/opt/conda/envs/gadgetron-starter/bin/cmake",
     "cmake.configureSettings": {
         "USE_CUDA": "ON",
         "USE_MKL": "ON",
-        "CMAKE_INSTALL_PREFIX": "${env:HOME}/anaconda3/envs/gadgetron-starter"
+        "CMAKE_INSTALL_PREFIX": "/opt/conda/envs/gadgetron-starter"
     }
 }
