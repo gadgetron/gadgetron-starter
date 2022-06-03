@@ -4,7 +4,7 @@
         {
             "label": "buildandinstall",
             "type": "shell",
-            "command": "cmake --build ${workspaceRoot}/build --config Debug --target install -DCMAKE_PREFIX_PATH=${env:HOME}/anaconda3/envs/gadgetron-starter",
+            "command": "cmake --build ${workspaceRoot}/build --config Debug --target install -DCMAKE_PREFIX_PATH=${env:HOME}/miniconda3/envs/gadgetron-starter",
             "problemMatcher": [],
             "group": {
                 "kind": "build",

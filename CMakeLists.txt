@@ -22,6 +22,7 @@ set(gadgetron_starter_header_files
         gadgets/ImageFixedScalePureGadget.h
         gadgets/ImageFixedScalePythonChannelGadget.h
         gadgets/SaveImageToStorageServer.h
+        gadgets/LoadImageFromStorageServer.h
 )
 
 set(gadgetron_starter_src_files
@@ -29,7 +30,8 @@ set(gadgetron_starter_src_files
         gadgets/ImagePassthroughPureGadget.cpp
         gadgets/ImageFixedScalePureGadget.cpp
         gadgets/ImageFixedScalePythonChannelGadget.cpp
-        gadgets/SaveImageToStorageServer.cpp
+        gadgets/SaveImageToStorageServer.cpp        
+        gadgets/LoadImageFromStorageServer.cpp
 )
 
 set(gadgetron_starter_python_files
@@ -42,6 +44,8 @@ set(gadgetron_starter_config_files
         config/default_image_fixed_scale.xml
         config/default_channel_python_fixed_scale.xml
         config/default_save_image_to_storage_server.xml
+        config/default_load_image_from_storage_server.xml
+
 )
 
 add_library(${NAME} SHARED

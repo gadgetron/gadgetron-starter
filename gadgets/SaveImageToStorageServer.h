@@ -14,7 +14,7 @@ namespace Gadgetron {
         ~SaveImageToStorageServer() override = default;
         void process(Core::InputChannel<Core::Image<float>>& input, Core::OutputChannel& output) override;
     protected:
-        std::shared_ptr<Gadgetron::MeasurementSpace> measurementSpace;
+        std::shared_ptr<Gadgetron::SessionSpace> sessionSpace;
         NODE_PROPERTY(storage_uri, std::string, "URI at which to save the image", "SaveImageSample");
         NODE_PROPERTY(storage_duration, int, "Duration to store the image in seconds", 600);    
   };

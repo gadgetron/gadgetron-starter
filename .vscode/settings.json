@@ -89,10 +89,10 @@
     },
     "cmake.configureOnOpen": true,
     "cmake.preferredGenerators": ["Ninja", "Unix Makefiles"],
-    "cmake.cmakePath": "${env:HOME}/anaconda3/envs/gadgetron-starter/bin/cmake",
+    "cmake.cmakePath": "${env:HOME}/miniconda3/envs/gadgetron-starter/bin/cmake",
     "cmake.configureSettings": {
         "USE_CUDA": "ON",
         "USE_MKL": "ON",
-        "CMAKE_INSTALL_PREFIX": "${env:HOME}/anaconda3/envs/gadgetron-starter"
+        "CMAKE_INSTALL_PREFIX": "${env:HOME}/miniconda3/envs/gadgetron-starter"
     }
 }

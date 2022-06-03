@@ -5,7 +5,7 @@ using namespace Gadgetron::Core;
 
 namespace Gadgetron{
     SaveImageToStorageServer::SaveImageToStorageServer(const Core::Context& context, const Core::GadgetProperties& props) 
-        : Core::ChannelGadget<Core::Image<float>>(context, props),  measurementSpace(context.storage.measurement){
+        : Core::ChannelGadget<Core::Image<float>>(context, props),  sessionSpace(context.storage.session){
         GDEBUG("Context configured for SaveImage\n");
     }
 
@@ -16,14 +16,16 @@ namespace Gadgetron{
             auto &data = std::get<hoNDArray<float>>(image);
             auto &meta = std::get<Core::optional<ISMRMRD::MetaContainer>>(image);
 
-            GDEBUG("Trying to save Image\n");
-            auto testdata = hoNDArray<float>(1);
-            testdata[1] = 100;
-            this->measurementSpace->store("testdata", testdata);
-            //measurementSpace->store(storage_uri, data, std::chrono::seconds(storage_duration));
-            GDEBUG("Finished saving Image\n");
+            try
+            {
+                sessionSpace->store(storage_uri, data, std::chrono::seconds(storage_duration));
+            }
+            catch (IncompleteStorageContextException& e)
+            {
+                GERROR(e.what());
+            }
 
-            // Output the acquisition
+            // Output the image
             out.push(Core::Image<float>(std::move(header), std::move(data), std::move(meta)));
         }  
     }
