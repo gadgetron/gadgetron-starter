@@ -1,0 +1,10 @@
+*#
+.#*
+*~
+data/
+test/
+*.log
+index.html
+test_cases.txt
+gadgetron_integration_tests.egg-info/
+dist/

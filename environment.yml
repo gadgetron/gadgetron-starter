@@ -64,3 +64,4 @@ dependencies:
   - xsdata=22.2
   - pip:
     - junitparser==2.2.0
+    - gadgetron_integration_tests==0.0.5
