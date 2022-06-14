@@ -20,7 +20,7 @@ dependencies:
   - dcmtk=3.6.1
   - doxygen=1.9.2                 # dev
   - fftw=3.3.9
-  - gadgetron=4.2.1
+  - gadgetron=4.2.2
   - gadgetron-python=1.3.6
   - gcc_linux-64=9.4.0            # dev
   - gdb=11.1                      # dev
