@@ -2,5 +2,5 @@ name: gadgetron
 channels:
   - gadgetron
 dependencies:
-  - gadgetron=4.2.2
+  - gadgetron=4.2.3
   

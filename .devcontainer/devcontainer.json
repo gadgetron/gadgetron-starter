@@ -66,5 +66,5 @@
 		},
 		"git": "os-provided"
 	},
-	"postCreateCommand": ".devcontainer/bootstrap-vscode.sh ",
+	"postCreateCommand": "DEBIAN_FRONTEND=noninteractive && sudo apt update && sudo apt install --no-install-recommends --no-install-suggests --yes locales && sudo locale-gen en_US.UTF-8 && .devcontainer/bootstrap-vscode.sh ",
 }
