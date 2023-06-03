@@ -12,7 +12,6 @@ set(NAME gadgetron-starter)
 set(GADGETRON_INSTALL_CONFIG_PATH share/gadgetron/config)
 
 find_package(Gadgetron REQUIRED)
-find_package(cpr REQUIRED)
 find_package(ISMRMRD REQUIRED)
 find_package(Python3 COMPONENTS Development NumPy REQUIRED)
 
