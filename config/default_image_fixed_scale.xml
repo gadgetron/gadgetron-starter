@@ -82,7 +82,7 @@
             <classname>ImageFixedScalePureGadget</classname>
             <property>
                 <name>scaleFactor</name>
-                <value>0.5</value>
+                <value>1</value>
             </property>
         </gadget>
 
