@@ -4,7 +4,7 @@
 		"dockerfile": "../Dockerfile",
 		"target": "gadgetron_dev_cuda_oot",
 		"context": "../",
-		"cacheFrom": "ghcr.io/gadgetron/gadgetron/gadgetron_ubuntu_dev_cuda:latest",
+		"cacheFrom": "ghcr.io/gadgetron/gadgetron/gadgetron_ubuntu_dev_cuda_oot:latest",
 	},
 	"containerEnv": {
 		"DOCKER_BUILDKIT": "1",

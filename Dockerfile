@@ -38,7 +38,7 @@ RUN . /opt/conda/etc/profile.d/conda.sh && umask 0002 && conda activate gadgetro
     cd /opt/code/gadgetron-starter && \
     mkdir build && \
     cd build && \
-    cmake ../ -GNinja -DUSE_MKL=ON -DCMAKE_INSTALL_PREFIX=/opt/package && \
+    cmake ../ -GNinja -DCMAKE_INSTALL_PREFIX=/opt/package && \
     ninja && \
     ninja install
 
