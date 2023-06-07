@@ -3,3 +3,4 @@ build/*
 .vscode/*
 test/data/*
 test/test/*
+doc/doxygen/doc/*
