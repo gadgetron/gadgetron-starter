@@ -1,3 +1,9 @@
+/*********************************************************************
+ * @file  AcquisitionPassthroughChannelGadget.h
+ * 
+ * @brief Header of the class AcquisitionPassthroughChannelGadget.
+ *********************************************************************/
+
 #pragma once
 
 #include "Gadget.h"

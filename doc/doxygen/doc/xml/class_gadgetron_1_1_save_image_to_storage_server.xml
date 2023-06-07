@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_gadgetron_1_1_save_image_to_storage_server" kind="class" language="C++" prot="public">
+    <compoundname>Gadgetron::SaveImageToStorageServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Core::ChannelGadget&lt; Core::Image&lt; float &gt; &gt;</basecompoundref>
+    <includes refid="_save_image_to_storage_server_8h" local="no">SaveImageToStorageServer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_gadgetron_1_1_save_image_to_storage_server_1ab6c260a6dfcd0c15d560922238f8f697" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; Gadgetron::SessionSpace &gt;</type>
+        <definition>std::shared_ptr&lt;Gadgetron::SessionSpace&gt; Gadgetron::SaveImageToStorageServer::sessionSpace</definition>
+        <argsstring></argsstring>
+        <name>sessionSpace</name>
+        <qualifiedname>Gadgetron::SaveImageToStorageServer::sessionSpace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" line="17" column="25" bodyfile="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gadgetron_1_1_save_image_to_storage_server_1a69843520378d75ef3a70690d929bd38d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::SaveImageToStorageServer::SaveImageToStorageServer</definition>
+        <argsstring>(const Core::Context &amp;context, const Core::GadgetProperties &amp;props)</argsstring>
+        <name>SaveImageToStorageServer</name>
+        <qualifiedname>Gadgetron::SaveImageToStorageServer::SaveImageToStorageServer</qualifiedname>
+        <param>
+          <type>const Core::Context &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const Core::GadgetProperties &amp;</type>
+          <declname>props</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" line="13" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gadgetron_1_1_save_image_to_storage_server_1ab9c9d67a07b971ca9c1f8d61218502c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::SaveImageToStorageServer::~SaveImageToStorageServer</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~SaveImageToStorageServer</name>
+        <qualifiedname>Gadgetron::SaveImageToStorageServer::~SaveImageToStorageServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" line="14" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gadgetron_1_1_save_image_to_storage_server_1a836a3216c89fc8c68a163deea89efb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gadgetron::SaveImageToStorageServer::process</definition>
+        <argsstring>(Core::InputChannel&lt; Core::Image&lt; float &gt; &gt; &amp;input, Core::OutputChannel &amp;output) override</argsstring>
+        <name>process</name>
+        <qualifiedname>Gadgetron::SaveImageToStorageServer::process</qualifiedname>
+        <param>
+          <type>Core::InputChannel&lt; Core::Image&lt; float &gt; &gt; &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Core::OutputChannel &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" line="15" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_gadgetron_1_1_save_image_to_storage_server_1afdd1e4104097ab402345111fe50dfbb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::SaveImageToStorageServer::NODE_PROPERTY</definition>
+        <argsstring>(storage_uri, std::string, &quot;URI at which to save the image&quot;, &quot;SaveImageSample&quot;)</argsstring>
+        <name>NODE_PROPERTY</name>
+        <qualifiedname>Gadgetron::SaveImageToStorageServer::NODE_PROPERTY</qualifiedname>
+        <param>
+          <type>storage_uri</type>
+        </param>
+        <param>
+          <type>std::string</type>
+        </param>
+        <param>
+          <type>&quot;URI at which to save the image&quot;</type>
+        </param>
+        <param>
+          <type>&quot;SaveImageSample&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" line="18" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gadgetron_1_1_save_image_to_storage_server_1a1d3eea953122a937e216e811c5ba709e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::SaveImageToStorageServer::NODE_PROPERTY</definition>
+        <argsstring>(storage_duration, int, &quot;Duration to store the image in seconds&quot;, 600)</argsstring>
+        <name>NODE_PROPERTY</name>
+        <qualifiedname>Gadgetron::SaveImageToStorageServer::NODE_PROPERTY</qualifiedname>
+        <param>
+          <type>storage_duration</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>&quot;Duration to store the image in seconds&quot;</type>
+        </param>
+        <param>
+          <type>600</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" line="19" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Core::ChannelGadget&lt; Core::Image&lt; float &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::SaveImageToStorageServer</label>
+        <link refid="class_gadgetron_1_1_save_image_to_storage_server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Core::ChannelGadget&lt; Core::Image&lt; float &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::SaveImageToStorageServer</label>
+        <link refid="class_gadgetron_1_1_save_image_to_storage_server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>sessionSpace</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::shared_ptr&lt; Gadgetron::SessionSpace &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" line="10" column="5" bodyfile="/workspaces/gadgetron-starter/gadgets/SaveImageToStorageServer.h" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_gadgetron_1_1_save_image_to_storage_server_1afdd1e4104097ab402345111fe50dfbb0" prot="protected" virt="non-virtual"><scope>Gadgetron::SaveImageToStorageServer</scope><name>NODE_PROPERTY</name></member>
+      <member refid="class_gadgetron_1_1_save_image_to_storage_server_1a1d3eea953122a937e216e811c5ba709e" prot="protected" virt="non-virtual"><scope>Gadgetron::SaveImageToStorageServer</scope><name>NODE_PROPERTY</name></member>
+      <member refid="class_gadgetron_1_1_save_image_to_storage_server_1a836a3216c89fc8c68a163deea89efb06" prot="public" virt="non-virtual"><scope>Gadgetron::SaveImageToStorageServer</scope><name>process</name></member>
+      <member refid="class_gadgetron_1_1_save_image_to_storage_server_1a69843520378d75ef3a70690d929bd38d" prot="public" virt="non-virtual"><scope>Gadgetron::SaveImageToStorageServer</scope><name>SaveImageToStorageServer</name></member>
+      <member refid="class_gadgetron_1_1_save_image_to_storage_server_1ab6c260a6dfcd0c15d560922238f8f697" prot="protected" virt="non-virtual"><scope>Gadgetron::SaveImageToStorageServer</scope><name>sessionSpace</name></member>
+      <member refid="class_gadgetron_1_1_save_image_to_storage_server_1ab9c9d67a07b971ca9c1f8d61218502c5" prot="public" virt="non-virtual"><scope>Gadgetron::SaveImageToStorageServer</scope><name>~SaveImageToStorageServer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

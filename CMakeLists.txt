@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 project(gadgetron-starter)
 
-
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
@@ -66,6 +65,12 @@ install(TARGETS ${NAME}
         RUNTIME DESTINATION bin
         COMPONENT main
 )
+
+
+option(BUILD_DOCUMENTATION "Build Gadgetron documentation." Off)
+if(BUILD_DOCUMENTATION)
+    add_subdirectory(doc)
+endif()
 
 install(FILES ${gadgetron_starter_config_files} DESTINATION ${GADGETRON_INSTALL_CONFIG_PATH} COMPONENT main)
 install(FILES ${gadgetron_starter_python_files} DESTINATION ${GADGETRON_INSTALL_PYTHON_MODULE_PATH} COMPONENT main)

@@ -2,8 +2,8 @@
     {
         "name":"GCC-CONDA",
         "compilers":{
-            "C":"${CONDA_PREFIX}/bin/x86_64-conda_cos6-linux-gnu-gcc",
-            "CXX":"${CONDA_PREFIX}/bin/x86_64-conda_cos6-linux-gnu-g++"
+            "C":"/opt/conda/envs/gadgetron/bin/x86_64-conda_cos6-linux-gnu-gcc",
+            "CXX":"/opt/conda/envs/gadgetron/bin/x86_64-conda_cos6-linux-gnu-g++"
         }
     }
 ]

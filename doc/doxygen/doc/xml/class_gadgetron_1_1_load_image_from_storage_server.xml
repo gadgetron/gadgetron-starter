@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_gadgetron_1_1_load_image_from_storage_server" kind="class" language="C++" prot="public">
+    <compoundname>Gadgetron::LoadImageFromStorageServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Core::ChannelGadget&lt; Core::Image&lt; float &gt; &gt;</basecompoundref>
+    <includes refid="_load_image_from_storage_server_8h" local="no">LoadImageFromStorageServer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_gadgetron_1_1_load_image_from_storage_server_1a97c67c6a38c0a8f779a026c357a97f01" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; Gadgetron::SessionSpace &gt;</type>
+        <definition>std::shared_ptr&lt;Gadgetron::SessionSpace&gt; Gadgetron::LoadImageFromStorageServer::sessionSpace</definition>
+        <argsstring></argsstring>
+        <name>sessionSpace</name>
+        <qualifiedname>Gadgetron::LoadImageFromStorageServer::sessionSpace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" line="17" column="25" bodyfile="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gadgetron_1_1_load_image_from_storage_server_1a70b108b08cadde02f8dcea1b0239688a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::LoadImageFromStorageServer::LoadImageFromStorageServer</definition>
+        <argsstring>(const Core::Context &amp;context, const Core::GadgetProperties &amp;props)</argsstring>
+        <name>LoadImageFromStorageServer</name>
+        <qualifiedname>Gadgetron::LoadImageFromStorageServer::LoadImageFromStorageServer</qualifiedname>
+        <param>
+          <type>const Core::Context &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const Core::GadgetProperties &amp;</type>
+          <declname>props</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" line="13" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gadgetron_1_1_load_image_from_storage_server_1aabf8ba231ccbe78d1d58eea0c9a14d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::LoadImageFromStorageServer::~LoadImageFromStorageServer</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~LoadImageFromStorageServer</name>
+        <qualifiedname>Gadgetron::LoadImageFromStorageServer::~LoadImageFromStorageServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" line="14" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gadgetron_1_1_load_image_from_storage_server_1a4baddbf4f370fae502e397078bb0e708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gadgetron::LoadImageFromStorageServer::process</definition>
+        <argsstring>(Core::InputChannel&lt; Core::Image&lt; float &gt; &gt; &amp;input, Core::OutputChannel &amp;output) override</argsstring>
+        <name>process</name>
+        <qualifiedname>Gadgetron::LoadImageFromStorageServer::process</qualifiedname>
+        <param>
+          <type>Core::InputChannel&lt; Core::Image&lt; float &gt; &gt; &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Core::OutputChannel &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" line="15" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_gadgetron_1_1_load_image_from_storage_server_1a396fc9879846c3532e02cc6a5083da58" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::LoadImageFromStorageServer::NODE_PROPERTY</definition>
+        <argsstring>(storage_uri, std::string, &quot;URI from which to load the image&quot;, &quot;SaveImageSample&quot;)</argsstring>
+        <name>NODE_PROPERTY</name>
+        <qualifiedname>Gadgetron::LoadImageFromStorageServer::NODE_PROPERTY</qualifiedname>
+        <param>
+          <type>storage_uri</type>
+        </param>
+        <param>
+          <type>std::string</type>
+        </param>
+        <param>
+          <type>&quot;URI from which to load the image&quot;</type>
+        </param>
+        <param>
+          <type>&quot;SaveImageSample&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" line="18" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Core::ChannelGadget&lt; Core::Image&lt; float &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::LoadImageFromStorageServer</label>
+        <link refid="class_gadgetron_1_1_load_image_from_storage_server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Core::ChannelGadget&lt; Core::Image&lt; float &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::LoadImageFromStorageServer</label>
+        <link refid="class_gadgetron_1_1_load_image_from_storage_server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>sessionSpace</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::shared_ptr&lt; Gadgetron::SessionSpace &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" line="10" column="5" bodyfile="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a70b108b08cadde02f8dcea1b0239688a" prot="public" virt="non-virtual"><scope>Gadgetron::LoadImageFromStorageServer</scope><name>LoadImageFromStorageServer</name></member>
+      <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a396fc9879846c3532e02cc6a5083da58" prot="protected" virt="non-virtual"><scope>Gadgetron::LoadImageFromStorageServer</scope><name>NODE_PROPERTY</name></member>
+      <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a4baddbf4f370fae502e397078bb0e708" prot="public" virt="non-virtual"><scope>Gadgetron::LoadImageFromStorageServer</scope><name>process</name></member>
+      <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a97c67c6a38c0a8f779a026c357a97f01" prot="protected" virt="non-virtual"><scope>Gadgetron::LoadImageFromStorageServer</scope><name>sessionSpace</name></member>
+      <member refid="class_gadgetron_1_1_load_image_from_storage_server_1aabf8ba231ccbe78d1d58eea0c9a14d51" prot="public" virt="non-virtual"><scope>Gadgetron::LoadImageFromStorageServer</scope><name>~LoadImageFromStorageServer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

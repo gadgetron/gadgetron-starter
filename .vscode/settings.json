@@ -89,10 +89,12 @@
     },
     "cmake.configureOnOpen": true,
     "cmake.preferredGenerators": ["Ninja", "Unix Makefiles"],
-    "cmake.cmakePath": "${CONDA_PREFIX}/bin/cmake",
+    "cmake.cmakePath": "/opt/conda/envs/gadgetron/bin/cmake",
     "cmake.configureSettings": {
         "USE_CUDA": "ON",
         "USE_MKL": "ON",
-        "CMAKE_INSTALL_PREFIX": "${CONDA_PREFIX}"
-    }
+        "CMAKE_INSTALL_PREFIX": "/opt/conda/envs/gadgetron/bin"
+    },
+    "doxygen_runner.configuration_file_override": "${workspaceFolder}/doc/doxygen/Doxyfile.in",
+
 }

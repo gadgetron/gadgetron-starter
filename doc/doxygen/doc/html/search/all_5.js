@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['process_0',['process',['../class_gadgetron_1_1_acquisition_passthrough_channel_gadget.html#a03e1a9223b81df8400485a2aec1b0819',1,'Gadgetron::AcquisitionPassthroughChannelGadget::process()'],['../class_gadgetron_1_1_image_fixed_scale_python_channel_gadget.html#ab3d2c21a403b5e5e3e30c88540bbad75',1,'Gadgetron::ImageFixedScalePythonChannelGadget::process()'],['../class_gadgetron_1_1_load_image_from_storage_server.html#a4baddbf4f370fae502e397078bb0e708',1,'Gadgetron::LoadImageFromStorageServer::process()'],['../class_gadgetron_1_1_save_image_to_storage_server.html#a836a3216c89fc8c68a163deea89efb06',1,'Gadgetron::SaveImageToStorageServer::process()']]],
+  ['process_5ffunction_1',['process_function',['../class_gadgetron_1_1_image_fixed_scale_pure_gadget.html#aa92667cfdbfeca41c046617b4f205ec2',1,'Gadgetron::ImageFixedScalePureGadget::process_function()'],['../class_gadgetron_1_1_image_passthrough_pure_gadget.html#a5db6ad47532497cac56445b23c28e5ed',1,'Gadgetron::ImagePassthroughPureGadget::process_function()']]]
+];

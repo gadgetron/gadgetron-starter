@@ -18,11 +18,11 @@
 			"Ninja",
 			"Unix Makefiles"
 		],
-		"cmake.cmakePath": "/opt/conda/envs/gadgetron-starter/bin/cmake",
+		"cmake.cmakePath": "/opt/conda/envs/gadgetron/bin/cmake",
 		"cmake.configureSettings": {
 			"USE_CUDA": "ON",
 			"USE_MKL": "ON",
-			"CMAKE_INSTALL_PREFIX": "/opt/conda/envs/gadgetron-starter",
+			"CMAKE_INSTALL_PREFIX": "/opt/conda/envs/gadgetron",
 			"BUILD_DOCUMENTATION": "ON"
 		},
 		"indentRainbow.includedLanguages": [ "yaml", "python" ]
@@ -52,11 +52,12 @@
 		"ms-azuretools.vscode-docker",
 		"ms-python.python",
 		"oderwat.indent-rainbow",
-		"timonwong.shellcheck"
+		"timonwong.shellcheck", 
+		"betwo.vscode-doxygen-runner"
 	],
 	// Use the non-root user
 	"remoteUser": "vscode",
-	"features": {
+	"features": { 
 		"common": {
 			"username": "automatic"
 		},

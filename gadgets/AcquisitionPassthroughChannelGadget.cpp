@@ -1,3 +1,9 @@
+/*********************************************************************
+ * @file  AcquisitionPassthroughChannelGadget.cpp
+ * 
+ * @brief Implementation of the class AcquisitionPassthroughChannelGadget.
+ *********************************************************************/
+
 #include "AcquisitionPassthroughChannelGadget.h"
 
 namespace Gadgetron{

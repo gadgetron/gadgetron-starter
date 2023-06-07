@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_cbd789f24e87ad15c5bf56fc7e5f04f4" kind="dir">
+    <compoundname>gadgets</compoundname>
+    <innerfile refid="_acquisition_passthrough_channel_gadget_8h">AcquisitionPassthroughChannelGadget.h</innerfile>
+    <innerfile refid="_image_fixed_scale_pure_gadget_8h">ImageFixedScalePureGadget.h</innerfile>
+    <innerfile refid="_image_fixed_scale_python_channel_gadget_8h">ImageFixedScalePythonChannelGadget.h</innerfile>
+    <innerfile refid="_image_passthrough_pure_gadget_8h">ImagePassthroughPureGadget.h</innerfile>
+    <innerfile refid="_load_image_from_storage_server_8h">LoadImageFromStorageServer.h</innerfile>
+    <innerfile refid="_save_image_to_storage_server_8h">SaveImageToStorageServer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/workspaces/gadgetron-starter/gadgets/"/>
+  </compounddef>
+</doxygen>

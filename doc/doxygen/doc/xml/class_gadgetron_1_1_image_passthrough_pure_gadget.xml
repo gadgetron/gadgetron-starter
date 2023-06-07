@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_gadgetron_1_1_image_passthrough_pure_gadget" kind="class" language="C++" prot="public">
+    <compoundname>Gadgetron::ImagePassthroughPureGadget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Core::PureGadget&lt; Core::Image&lt; std::complex&lt; float &gt; &gt;, Core::Image&lt; std::complex&lt; float &gt; &gt; &gt;</basecompoundref>
+    <includes refid="_image_passthrough_pure_gadget_8h" local="no">ImagePassthroughPureGadget.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gadgetron_1_1_image_passthrough_pure_gadget_1a5db6ad47532497cac56445b23c28e5ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Core::Image&lt; std::complex&lt; float &gt; &gt;</type>
+        <definition>Core::Image&lt; std::complex&lt; float &gt; &gt; Gadgetron::ImagePassthroughPureGadget::process_function</definition>
+        <argsstring>(Core::Image&lt; std::complex&lt; float &gt; &gt; image) const override</argsstring>
+        <name>process_function</name>
+        <qualifiedname>Gadgetron::ImagePassthroughPureGadget::process_function</qualifiedname>
+        <param>
+          <type>Core::Image&lt; std::complex&lt; float &gt; &gt;</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/ImagePassthroughPureGadget.h" line="10" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Core::PureGadget&lt; Core::Image&lt; std::complex&lt; float &gt; &gt;, Core::Image&lt; std::complex&lt; float &gt; &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::ImagePassthroughPureGadget</label>
+        <link refid="class_gadgetron_1_1_image_passthrough_pure_gadget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Core::PureGadget&lt; Core::Image&lt; std::complex&lt; float &gt; &gt;, Core::Image&lt; std::complex&lt; float &gt; &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::ImagePassthroughPureGadget</label>
+        <link refid="class_gadgetron_1_1_image_passthrough_pure_gadget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/workspaces/gadgetron-starter/gadgets/ImagePassthroughPureGadget.h" line="7" column="5" bodyfile="/workspaces/gadgetron-starter/gadgets/ImagePassthroughPureGadget.h" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_gadgetron_1_1_image_passthrough_pure_gadget_1a5db6ad47532497cac56445b23c28e5ed" prot="public" virt="non-virtual"><scope>Gadgetron::ImagePassthroughPureGadget</scope><name>process_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

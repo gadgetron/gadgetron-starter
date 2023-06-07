@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_acquisition_passthrough_channel_gadget_8h" kind="file" language="C++">
+    <compoundname>AcquisitionPassthroughChannelGadget.h</compoundname>
+    <includes local="yes">Gadget.h</includes>
+    <includes local="yes">hoNDArray.h</includes>
+    <includes local="yes">GadgetMRIHeaders.h</includes>
+    <includes local="yes">Node.h</includes>
+    <includes local="yes">Types.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>AcquisitionPassthroughChannelGadget.h</label>
+        <link refid="_acquisition_passthrough_channel_gadget_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Gadget.h</label>
+      </node>
+      <node id="4">
+        <label>GadgetMRIHeaders.h</label>
+      </node>
+      <node id="5">
+        <label>Node.h</label>
+      </node>
+      <node id="6">
+        <label>Types.h</label>
+      </node>
+      <node id="3">
+        <label>hoNDArray.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget" prot="public">Gadgetron::AcquisitionPassthroughChannelGadget</innerclass>
+    <innernamespace refid="namespace_gadgetron">Gadgetron</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*********************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>@file<sp/><sp/>AcquisitionPassthroughChannelGadget.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>@brief<sp/>Implementation<sp/>of<sp/>the<sp/>class<sp/>AcquisitionPassthroughChannelGadget.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*********************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Gadget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hoNDArray.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GadgetMRIHeaders.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespace_gadgetron" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_gadgetron" kindref="compound">Gadgetron</ref>{</highlight></codeline>
+<codeline lineno="16" refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget" kindref="compound">AcquisitionPassthroughChannelGadget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Core::ChannelGadget&lt;Core::Acquisition&gt;<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Core::ChannelGadget&lt;Core::Acquisition&gt;::ChannelGadget;</highlight></codeline>
+<codeline lineno="20" refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a142d76146b12ff6dd55bf4e1356c1cac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a142d76146b12ff6dd55bf4e1356c1cac" kindref="member">~AcquisitionPassthroughChannelGadget</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a03e1a9223b81df8400485a2aec1b0819" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a03e1a9223b81df8400485a2aec1b0819" kindref="member">process</ref>(Core::InputChannel&lt;Core::Acquisition&gt;&amp;<sp/>input,<sp/>Core::OutputChannel&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/workspaces/gadgetron-starter/gadgets/AcquisitionPassthroughChannelGadget.h"/>
+  </compounddef>
+</doxygen>
