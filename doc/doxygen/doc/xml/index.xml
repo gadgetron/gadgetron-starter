@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget" kind="class"><name>Gadgetron::AcquisitionPassthroughChannelGadget</name>
+    <member refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a142d76146b12ff6dd55bf4e1356c1cac" kind="function"><name>~AcquisitionPassthroughChannelGadget</name></member>
+    <member refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a03e1a9223b81df8400485a2aec1b0819" kind="function"><name>process</name></member>
+  </compound>
+  <compound refid="class_gadgetron_1_1_image_fixed_scale_pure_gadget" kind="class"><name>Gadgetron::ImageFixedScalePureGadget</name>
+    <member refid="class_gadgetron_1_1_image_fixed_scale_pure_gadget_1aa92667cfdbfeca41c046617b4f205ec2" kind="function"><name>process_function</name></member>
+    <member refid="class_gadgetron_1_1_image_fixed_scale_pure_gadget_1a3ed7a6ba66858ea7d40057526480a56b" kind="function"><name>NODE_PROPERTY</name></member>
+  </compound>
+  <compound refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget" kind="class"><name>Gadgetron::ImageFixedScalePythonChannelGadget</name>
+    <member refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1a0cf9a03f0e0d02988f4543110c1c847c" kind="function"><name>ImageFixedScalePythonChannelGadget</name></member>
+    <member refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1a6b730701e6ace9161043aac8e2b7e5b2" kind="function"><name>~ImageFixedScalePythonChannelGadget</name></member>
+    <member refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1ab3d2c21a403b5e5e3e30c88540bbad75" kind="function"><name>process</name></member>
+    <member refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1accf1639a42adb6e4ef63e0ae6eed95e1" kind="function"><name>NODE_PROPERTY</name></member>
+  </compound>
+  <compound refid="class_gadgetron_1_1_image_passthrough_pure_gadget" kind="class"><name>Gadgetron::ImagePassthroughPureGadget</name>
+    <member refid="class_gadgetron_1_1_image_passthrough_pure_gadget_1a5db6ad47532497cac56445b23c28e5ed" kind="function"><name>process_function</name></member>
+  </compound>
+  <compound refid="class_gadgetron_1_1_load_image_from_storage_server" kind="class"><name>Gadgetron::LoadImageFromStorageServer</name>
+    <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a97c67c6a38c0a8f779a026c357a97f01" kind="variable"><name>sessionSpace</name></member>
+    <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a70b108b08cadde02f8dcea1b0239688a" kind="function"><name>LoadImageFromStorageServer</name></member>
+    <member refid="class_gadgetron_1_1_load_image_from_storage_server_1aabf8ba231ccbe78d1d58eea0c9a14d51" kind="function"><name>~LoadImageFromStorageServer</name></member>
+    <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a4baddbf4f370fae502e397078bb0e708" kind="function"><name>process</name></member>
+    <member refid="class_gadgetron_1_1_load_image_from_storage_server_1a396fc9879846c3532e02cc6a5083da58" kind="function"><name>NODE_PROPERTY</name></member>
+  </compound>
+  <compound refid="class_gadgetron_1_1_save_image_to_storage_server" kind="class"><name>Gadgetron::SaveImageToStorageServer</name>
+    <member refid="class_gadgetron_1_1_save_image_to_storage_server_1ab6c260a6dfcd0c15d560922238f8f697" kind="variable"><name>sessionSpace</name></member>
+    <member refid="class_gadgetron_1_1_save_image_to_storage_server_1a69843520378d75ef3a70690d929bd38d" kind="function"><name>SaveImageToStorageServer</name></member>
+    <member refid="class_gadgetron_1_1_save_image_to_storage_server_1ab9c9d67a07b971ca9c1f8d61218502c5" kind="function"><name>~SaveImageToStorageServer</name></member>
+    <member refid="class_gadgetron_1_1_save_image_to_storage_server_1a836a3216c89fc8c68a163deea89efb06" kind="function"><name>process</name></member>
+    <member refid="class_gadgetron_1_1_save_image_to_storage_server_1afdd1e4104097ab402345111fe50dfbb0" kind="function"><name>NODE_PROPERTY</name></member>
+    <member refid="class_gadgetron_1_1_save_image_to_storage_server_1a1d3eea953122a937e216e811c5ba709e" kind="function"><name>NODE_PROPERTY</name></member>
+  </compound>
+  <compound refid="namespace_core" kind="namespace"><name>Core</name>
+  </compound>
+  <compound refid="namespace_gadgetron" kind="namespace"><name>Gadgetron</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_acquisition_passthrough_channel_gadget_8h" kind="file"><name>AcquisitionPassthroughChannelGadget.h</name>
+  </compound>
+  <compound refid="_image_fixed_scale_pure_gadget_8h" kind="file"><name>ImageFixedScalePureGadget.h</name>
+  </compound>
+  <compound refid="_image_fixed_scale_python_channel_gadget_8h" kind="file"><name>ImageFixedScalePythonChannelGadget.h</name>
+  </compound>
+  <compound refid="_image_passthrough_pure_gadget_8h" kind="file"><name>ImagePassthroughPureGadget.h</name>
+  </compound>
+  <compound refid="_load_image_from_storage_server_8h" kind="file"><name>LoadImageFromStorageServer.h</name>
+  </compound>
+  <compound refid="_save_image_to_storage_server_8h" kind="file"><name>SaveImageToStorageServer.h</name>
+  </compound>
+  <compound refid="dir_cbd789f24e87ad15c5bf56fc7e5f04f4" kind="dir"><name>gadgets</name>
+  </compound>
+</doxygenindex>

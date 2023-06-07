@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_image_fixed_scale_python_channel_gadget_8h" kind="file" language="C++">
+    <compoundname>ImageFixedScalePythonChannelGadget.h</compoundname>
+    <includes local="yes">Gadget.h</includes>
+    <includes local="yes">hoNDArray.h</includes>
+    <includes local="yes">GadgetMRIHeaders.h</includes>
+    <includes local="yes">Node.h</includes>
+    <includes local="yes">Types.h</includes>
+    <includes local="yes">python_toolbox.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ImageFixedScalePythonChannelGadget.h</label>
+        <link refid="_image_fixed_scale_python_channel_gadget_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Gadget.h</label>
+      </node>
+      <node id="4">
+        <label>GadgetMRIHeaders.h</label>
+      </node>
+      <node id="5">
+        <label>Node.h</label>
+      </node>
+      <node id="6">
+        <label>Types.h</label>
+      </node>
+      <node id="3">
+        <label>hoNDArray.h</label>
+      </node>
+      <node id="7">
+        <label>python_toolbox.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget" prot="public">Gadgetron::ImageFixedScalePythonChannelGadget</innerclass>
+    <innernamespace refid="namespace_gadgetron">Gadgetron</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Gadget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hoNDArray.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GadgetMRIHeaders.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;python_toolbox.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_gadgetron" kindref="compound">Gadgetron</ref>{</highlight></codeline>
+<codeline lineno="11" refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget" kindref="compound">ImageFixedScalePythonChannelGadget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Core::ChannelGadget&lt;Core::Image&lt;float&gt;&gt;<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Core::ChannelGadget&lt;Core::Image&lt;float&gt;&gt;::ChannelGadget;</highlight></codeline>
+<codeline lineno="15" refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1a0cf9a03f0e0d02988f4543110c1c847c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1a0cf9a03f0e0d02988f4543110c1c847c" kindref="member">ImageFixedScalePythonChannelGadget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Core::Context&amp;<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Core::GadgetProperties&amp;<sp/>props);</highlight></codeline>
+<codeline lineno="16" refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1a6b730701e6ace9161043aac8e2b7e5b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1a6b730701e6ace9161043aac8e2b7e5b2" kindref="member">~ImageFixedScalePythonChannelGadget</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1ab3d2c21a403b5e5e3e30c88540bbad75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1ab3d2c21a403b5e5e3e30c88540bbad75" kindref="member">process</ref>(Core::InputChannel&lt;Core::Image&lt;float&gt;&gt;&amp;<sp/>input,<sp/>Core::OutputChannel&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1accf1639a42adb6e4ef63e0ae6eed95e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gadgetron_1_1_image_fixed_scale_python_channel_gadget_1accf1639a42adb6e4ef63e0ae6eed95e1" kindref="member">NODE_PROPERTY</ref>(scaleFactor,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Scaling<sp/>factor<sp/>(multiply<sp/>all<sp/>image<sp/>values<sp/>by<sp/>this<sp/>constant)&quot;</highlight><highlight class="normal">,<sp/>0.1);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/workspaces/gadgetron-starter/gadgets/ImageFixedScalePythonChannelGadget.h"/>
+  </compounddef>
+</doxygen>

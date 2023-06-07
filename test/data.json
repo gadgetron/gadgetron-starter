@@ -1,0 +1,22 @@
+[
+  {
+    "file": "gre_3d/meas_MID248_gre_FID30644.dat",
+    "md5": "39ac16864627691cf7d84aa2ce13c1ae"
+  },
+  {
+    "file": "gre_3d/simple_gre_out_3d_20210910_klk.mrd",
+    "md5": "015b111b26991bab81671a1844f08433"
+  },
+  {
+    "file": "simple_gre/meas_MiniGadgetron_GRE.dat",
+    "md5": "7c5c255522e42367546b4045560afcf8"
+  },
+  {
+    "file": "simple_gre/simple_gre_in.mrd",
+    "md5": "67e58a994eb287b64b9f9447349fe653"
+  },
+  {
+    "file": "simple_gre/simple_gre_out_20210909_klk.mrd",
+    "md5": "85e35ab4c68fa2e5ee25086bc08e615f"
+  }
+]

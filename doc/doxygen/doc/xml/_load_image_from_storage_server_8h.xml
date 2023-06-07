@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_load_image_from_storage_server_8h" kind="file" language="C++">
+    <compoundname>LoadImageFromStorageServer.h</compoundname>
+    <includes local="yes">Gadget.h</includes>
+    <includes local="yes">hoNDArray.h</includes>
+    <includes local="yes">GadgetMRIHeaders.h</includes>
+    <includes local="yes">Node.h</includes>
+    <includes local="yes">Types.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>LoadImageFromStorageServer.h</label>
+        <link refid="_load_image_from_storage_server_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Gadget.h</label>
+      </node>
+      <node id="4">
+        <label>GadgetMRIHeaders.h</label>
+      </node>
+      <node id="5">
+        <label>Node.h</label>
+      </node>
+      <node id="6">
+        <label>Types.h</label>
+      </node>
+      <node id="3">
+        <label>hoNDArray.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_gadgetron_1_1_load_image_from_storage_server" prot="public">Gadgetron::LoadImageFromStorageServer</innerclass>
+    <innernamespace refid="namespace_gadgetron">Gadgetron</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Gadget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hoNDArray.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GadgetMRIHeaders.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_gadgetron" kindref="compound">Gadgetron</ref><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="class_gadgetron_1_1_load_image_from_storage_server" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_gadgetron_1_1_load_image_from_storage_server" kindref="compound">LoadImageFromStorageServer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Core::ChannelGadget&lt;Core::Image&lt;float&gt;&gt;<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Core::ChannelGadget&lt;Core::Image&lt;float&gt;&gt;::ChannelGadget;</highlight></codeline>
+<codeline lineno="13" refid="class_gadgetron_1_1_load_image_from_storage_server_1a70b108b08cadde02f8dcea1b0239688a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gadgetron_1_1_load_image_from_storage_server_1a70b108b08cadde02f8dcea1b0239688a" kindref="member">LoadImageFromStorageServer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Core::Context&amp;<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Core::GadgetProperties&amp;<sp/>props);</highlight></codeline>
+<codeline lineno="14" refid="class_gadgetron_1_1_load_image_from_storage_server_1aabf8ba231ccbe78d1d58eea0c9a14d51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gadgetron_1_1_load_image_from_storage_server_1aabf8ba231ccbe78d1d58eea0c9a14d51" kindref="member">~LoadImageFromStorageServer</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="class_gadgetron_1_1_load_image_from_storage_server_1a4baddbf4f370fae502e397078bb0e708" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gadgetron_1_1_load_image_from_storage_server_1a4baddbf4f370fae502e397078bb0e708" kindref="member">process</ref>(Core::InputChannel&lt;Core::Image&lt;float&gt;&gt;&amp;<sp/>input,<sp/>Core::OutputChannel&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17" refid="class_gadgetron_1_1_load_image_from_storage_server_1a97c67c6a38c0a8f779a026c357a97f01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Gadgetron::SessionSpace&gt;<sp/><ref refid="class_gadgetron_1_1_load_image_from_storage_server_1a97c67c6a38c0a8f779a026c357a97f01" kindref="member">sessionSpace</ref>;</highlight></codeline>
+<codeline lineno="18" refid="class_gadgetron_1_1_load_image_from_storage_server_1a396fc9879846c3532e02cc6a5083da58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gadgetron_1_1_load_image_from_storage_server_1a396fc9879846c3532e02cc6a5083da58" kindref="member">NODE_PROPERTY</ref>(storage_uri,<sp/>std::string,<sp/></highlight><highlight class="stringliteral">&quot;URI<sp/>from<sp/>which<sp/>to<sp/>load<sp/>the<sp/>image&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;SaveImageSample&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/workspaces/gadgetron-starter/gadgets/LoadImageFromStorageServer.h"/>
+  </compounddef>
+</doxygen>

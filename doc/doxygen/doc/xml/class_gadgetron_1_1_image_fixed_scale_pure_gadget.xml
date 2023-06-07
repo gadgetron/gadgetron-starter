@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_gadgetron_1_1_image_fixed_scale_pure_gadget" kind="class" language="C++" prot="public">
+    <compoundname>Gadgetron::ImageFixedScalePureGadget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Core::PureGadget&lt; Core::Image&lt; float &gt;, Core::Image&lt; float &gt; &gt;</basecompoundref>
+    <includes refid="_image_fixed_scale_pure_gadget_8h" local="no">ImageFixedScalePureGadget.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gadgetron_1_1_image_fixed_scale_pure_gadget_1aa92667cfdbfeca41c046617b4f205ec2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Core::Image&lt; float &gt;</type>
+        <definition>Core::Image&lt; float &gt; Gadgetron::ImageFixedScalePureGadget::process_function</definition>
+        <argsstring>(Core::Image&lt; float &gt; image) const override</argsstring>
+        <name>process_function</name>
+        <qualifiedname>Gadgetron::ImageFixedScalePureGadget::process_function</qualifiedname>
+        <param>
+          <type>Core::Image&lt; float &gt;</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/ImageFixedScalePureGadget.h" line="10" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gadgetron_1_1_image_fixed_scale_pure_gadget_1a3ed7a6ba66858ea7d40057526480a56b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::ImageFixedScalePureGadget::NODE_PROPERTY</definition>
+        <argsstring>(scaleFactor, float, &quot;Scaling factor (multiply all image values by this constant)&quot;, 1)</argsstring>
+        <name>NODE_PROPERTY</name>
+        <qualifiedname>Gadgetron::ImageFixedScalePureGadget::NODE_PROPERTY</qualifiedname>
+        <param>
+          <type>scaleFactor</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>&quot;Scaling factor (multiply all image values by this constant)&quot;</type>
+        </param>
+        <param>
+          <type>1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/ImageFixedScalePureGadget.h" line="11" column="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Core::PureGadget&lt; Core::Image&lt; float &gt;, Core::Image&lt; float &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::ImageFixedScalePureGadget</label>
+        <link refid="class_gadgetron_1_1_image_fixed_scale_pure_gadget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Core::PureGadget&lt; Core::Image&lt; float &gt;, Core::Image&lt; float &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::ImageFixedScalePureGadget</label>
+        <link refid="class_gadgetron_1_1_image_fixed_scale_pure_gadget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/workspaces/gadgetron-starter/gadgets/ImageFixedScalePureGadget.h" line="7" column="5" bodyfile="/workspaces/gadgetron-starter/gadgets/ImageFixedScalePureGadget.h" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_gadgetron_1_1_image_fixed_scale_pure_gadget_1a3ed7a6ba66858ea7d40057526480a56b" prot="public" virt="non-virtual"><scope>Gadgetron::ImageFixedScalePureGadget</scope><name>NODE_PROPERTY</name></member>
+      <member refid="class_gadgetron_1_1_image_fixed_scale_pure_gadget_1aa92667cfdbfeca41c046617b4f205ec2" prot="public" virt="non-virtual"><scope>Gadgetron::ImageFixedScalePureGadget</scope><name>process_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

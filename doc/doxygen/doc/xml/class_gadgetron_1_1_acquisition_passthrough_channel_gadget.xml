@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_gadgetron_1_1_acquisition_passthrough_channel_gadget" kind="class" language="C++" prot="public">
+    <compoundname>Gadgetron::AcquisitionPassthroughChannelGadget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Core::ChannelGadget&lt; Core::Acquisition &gt;</basecompoundref>
+    <includes refid="_acquisition_passthrough_channel_gadget_8h" local="no">AcquisitionPassthroughChannelGadget.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a142d76146b12ff6dd55bf4e1356c1cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gadgetron::AcquisitionPassthroughChannelGadget::~AcquisitionPassthroughChannelGadget</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~AcquisitionPassthroughChannelGadget</name>
+        <qualifiedname>Gadgetron::AcquisitionPassthroughChannelGadget::~AcquisitionPassthroughChannelGadget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/AcquisitionPassthroughChannelGadget.h" line="20" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a03e1a9223b81df8400485a2aec1b0819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gadgetron::AcquisitionPassthroughChannelGadget::process</definition>
+        <argsstring>(Core::InputChannel&lt; Core::Acquisition &gt; &amp;input, Core::OutputChannel &amp;output) override</argsstring>
+        <name>process</name>
+        <qualifiedname>Gadgetron::AcquisitionPassthroughChannelGadget::process</qualifiedname>
+        <param>
+          <type>Core::InputChannel&lt; Core::Acquisition &gt; &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>Core::OutputChannel &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/workspaces/gadgetron-starter/gadgets/AcquisitionPassthroughChannelGadget.h" line="21" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Core::ChannelGadget&lt; Core::Acquisition &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::AcquisitionPassthroughChannelGadget</label>
+        <link refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Core::ChannelGadget&lt; Core::Acquisition &gt;</label>
+      </node>
+      <node id="1">
+        <label>Gadgetron::AcquisitionPassthroughChannelGadget</label>
+        <link refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/workspaces/gadgetron-starter/gadgets/AcquisitionPassthroughChannelGadget.h" line="16" column="3" bodyfile="/workspaces/gadgetron-starter/gadgets/AcquisitionPassthroughChannelGadget.h" bodystart="17" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a03e1a9223b81df8400485a2aec1b0819" prot="public" virt="non-virtual"><scope>Gadgetron::AcquisitionPassthroughChannelGadget</scope><name>process</name></member>
+      <member refid="class_gadgetron_1_1_acquisition_passthrough_channel_gadget_1a142d76146b12ff6dd55bf4e1356c1cac" prot="public" virt="non-virtual"><scope>Gadgetron::AcquisitionPassthroughChannelGadget</scope><name>~AcquisitionPassthroughChannelGadget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
