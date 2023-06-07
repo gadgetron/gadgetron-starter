@@ -18,6 +18,6 @@ namespace Gadgetron{
       public:
         using Core::ChannelGadget<Core::Acquisition>::ChannelGadget;
         ~AcquisitionPassthroughChannelGadget() override = default;
-        void process(Core::InputChannel<Core::Acquisition>& input, Core::OutputChannel& output) override;
+        void process(Core::InputChannel<Core::Acquisition>& input, Core::OutputChannel& output) override; 
     };
 }
