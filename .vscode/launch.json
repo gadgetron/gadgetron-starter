@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${env:HOME}/miniconda3/envs/gadgetron-starter/bin/gadgetron",
+            "program": "/opt/conda/envs/gadgetron/bin/gadgetron",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
