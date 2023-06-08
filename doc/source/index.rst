@@ -13,7 +13,7 @@ Hansen MS, Sørensen TS. Gadgetron: An Open Source Framework for Medical Image R
    obtaining
    building
    using
-   api
+   gadgets
 
 Indices and tables
 ==================

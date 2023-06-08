@@ -4,6 +4,7 @@
 #include "Types.h"
 
 namespace Gadgetron{
+  
     class ImagePassthroughPureGadget : public Core::PureGadget<Core::Image<std::complex<float>>, Core::Image<std::complex<float>>> {
     public:
         using Core::PureGadget<Core::Image<std::complex<float>>, Core::Image<std::complex<float>>>::PureGadget;
