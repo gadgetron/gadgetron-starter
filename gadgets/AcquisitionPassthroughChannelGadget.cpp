@@ -8,6 +8,12 @@
 
 namespace Gadgetron{
 
+  /********************************************//**
+  *  Accepts incoming acquisition data from an InputChannel and immediately pushes it out via an OutputChannel
+  *  with no changes to the data. 
+    * @param input Input channel of type Acquisition
+    * @param out Output channel to pass unmodified acquisition data
+  ***********************************************/
   void Gadgetron::AcquisitionPassthroughChannelGadget::process(Core::InputChannel<Core::Acquisition>& in, Core::OutputChannel& out) {
       for (auto acquisition : in) {
         // Get the header, image data, and trajectory for this acquisition
