@@ -36,7 +36,7 @@ Using vscode's devcontainer tools is the easiest way to get started. In vscode, 
 1. Open vscode
 2. Press F1-> Rebuild and Reopen in Devcontainer 
 
-###Building in dev environment
+### Building in dev environment
 1. mkdir build
 2. cd build
 3. cmake -GNinja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=${CONDA_PREFIX} ../
