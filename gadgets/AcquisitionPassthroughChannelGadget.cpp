@@ -1,12 +1,13 @@
 /*********************************************************************
- * @file  AcquisitionPassthroughChannelGadget.cpp
+ * \file  AcquisitionPassthroughChannelGadget.cpp
  * 
- * @brief Implementation of the class AcquisitionPassthroughChannelGadget.
+ * \brief Implementation of the class AcquisitionPassthroughChannelGadget.
  *********************************************************************/
 
 #include "AcquisitionPassthroughChannelGadget.h"
 
 namespace Gadgetron{
+
   void Gadgetron::AcquisitionPassthroughChannelGadget::process(Core::InputChannel<Core::Acquisition>& in, Core::OutputChannel& out) {
       for (auto acquisition : in) {
         // Get the header, image data, and trajectory for this acquisition

@@ -25,6 +25,8 @@ RUN sudo mkdir /opt/intel &&\
     sudo ln -s /opt/conda/envs/gadgetron/lib/libmkl_gnu_thread.so /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so && \
     sudo ln -s /opt/conda/envs/gadgetron/lib/libmkl_core.so /opt/intel/mkl/lib/intel64/libmkl_core.so
 USER root
+LABEL org.opencontainers.image.source=https://github.com/gadgetron/gadgetron-starter
+
 
 FROM gadgetron_dev_cuda_oot AS gadgetron_cudabuild_oot
 ARG USER_UID

@@ -1,5 +1,5 @@
 Gadgets
-====
+========
 
 .. doxygenclass:: Gadgetron::AcquisitionPassthroughChannelGadget
    :members:
@@ -11,10 +11,10 @@ Gadgets
    :members:
 
 .. doxygenclass:: Gadgetron::ImagePassthroughPureGadget
-    :members:
+   :members:
 
 .. doxygenclass:: Gadgetron::LoadImageFromStorageServer
-    :members:
+   :members:
 
 .. doxygenclass:: Gadgetron::SaveImageToStorageServer
-    :members:
+   :members:

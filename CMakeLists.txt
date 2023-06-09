@@ -66,8 +66,7 @@ install(TARGETS ${NAME}
         COMPONENT main
 )
 
-
-option(BUILD_DOCUMENTATION "Build Gadgetron documentation." Off)
+option(BUILD_DOCUMENTATION Off)
 if(BUILD_DOCUMENTATION)
     add_subdirectory(doc)
 endif()
