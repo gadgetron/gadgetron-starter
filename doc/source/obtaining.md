@@ -1,1 +1,1 @@
-# Obtaining and running the Gadgetron-Starter project
+# Obtaining and running the Gadgetron-SimpleFFT project

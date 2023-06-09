@@ -1,26 +1,26 @@
 /*********************************************************************
- * \file  AcquisitionPassthroughChannelGadget.cpp
+ * \file  SimpleFFT_CPP.cpp
  * 
- * \brief Implementation of the class AcquisitionPassthroughChannelGadget.
+ * \brief Implementation of the class SimpleFFT_CPP.
  *********************************************************************/
 
-#include "AcquisitionPassthroughChannelGadget.h"
+#include "SimpleFFT_CPP.h"
 
 namespace Gadgetron{
 
-  void Gadgetron::AcquisitionPassthroughChannelGadget::process(Core::InputChannel<Core::Acquisition>& in, Core::OutputChannel& out) {
+  void Gadgetron::SimpleFFT_CPP::process(Core::InputChannel<Core::Acquisition>& in, Core::OutputChannel& out) {
       for (auto acquisition : in) {
         // Get the header, image data, and trajectory for this acquisition
 		    auto &header = std::get<ISMRMRD::AcquisitionHeader>(acquisition);
         auto &data = std::get<hoNDArray<std::complex<float>>>(acquisition);
         auto &trajectory = std::get<Core::optional<hoNDArray<float>>>(acquisition);
 
-        // Do nothing
-        GDEBUG("Passing acquisition through.");
+        // Run Recon
+        auto image = data;
 
         // Output the acquisition
-        out.push(Core::Acquisition(std::move(header), std::move(data), std::move(trajectory)));
+        out.push(Core::Image<std::complex<float>>(ISMRMRD::ImageHeader(), std::move(image), std::optional<ISMRMRD::MetaContainer>()));
       }  
   }
-  GADGETRON_GADGET_EXPORT(AcquisitionPassthroughChannelGadget)
+  GADGETRON_GADGET_EXPORT(SimpleFFT_CPP)
 }

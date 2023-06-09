@@ -37,11 +37,11 @@ if read_the_docs_build:
     output_dir = 'doc'
     configureDoxyfile(input_dir, output_dir)
     subprocess.call('doxygen', shell=True)
-    breathe_projects['Gadgetron-Starter'] = output_dir + '/xml'
+    breathe_projects['Gadgetron-SimpleFFT'] = output_dir + '/xml'
 
 # -- Project information -----------------------------------------------------
 
-project = 'Gadgetron-Starter'
+project = 'Gadgetron-SimpleFFT'
 copyright = '2023, Gadgetron Working Group'
 author = 'Gadgetron Working Group'
 
@@ -55,7 +55,7 @@ release = '0,1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [ 'breathe', 'recommonmark']
-breathe_default_project = 'Gadgetron-Starter'
+breathe_default_project = 'Gadgetron-SimpleFFT'
 
 
 # Add any paths that contain templates here, relative to this directory.

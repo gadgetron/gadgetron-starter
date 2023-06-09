@@ -25,7 +25,7 @@ RUN sudo mkdir /opt/intel &&\
     sudo ln -s /opt/conda/envs/gadgetron/lib/libmkl_gnu_thread.so /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so && \
     sudo ln -s /opt/conda/envs/gadgetron/lib/libmkl_core.so /opt/intel/mkl/lib/intel64/libmkl_core.so
 USER root
-LABEL org.opencontainers.image.source=https://github.com/gadgetron/gadgetron-starter
+LABEL org.opencontainers.image.source=https://github.com/gadgetron/gadgetron_simple_fft
 
 
 FROM gadgetron_dev_cuda_oot AS gadgetron_cudabuild_oot
@@ -33,11 +33,11 @@ ARG USER_UID
 ARG USER_GID
 USER ${USER_UID}
 WORKDIR /opt
-RUN sudo chown $USER_UID:$USER_GID /opt && mkdir -p /opt/code/gadgetron-starter && mkdir -p /opt/package
-COPY --chown=$USER_UID:conda . /opt/code/gadgetron-starter/
+RUN sudo chown $USER_UID:$USER_GID /opt && mkdir -p /opt/code/gadgetron_simple_fft && mkdir -p /opt/package
+COPY --chown=$USER_UID:conda . /opt/code/gadgetron_simple_fft/
 SHELL ["/bin/bash", "-c"]
 RUN . /opt/conda/etc/profile.d/conda.sh && umask 0002 && conda activate gadgetron && sh -x && \
-    cd /opt/code/gadgetron-starter && \
+    cd /opt/code/gadgetron_simple_fft && \
     mkdir build && \
     cd build && \
     cmake ../ -GNinja -DCMAKE_INSTALL_PREFIX=/opt/package && \

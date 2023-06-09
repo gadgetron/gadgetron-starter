@@ -1,27 +1,13 @@
-# gadgetron-starter
-A starter project for new Gadgetron developers that includes a dockerfile for building out of tree gadgets into new docker images, a few simple template gadgets with common reference structures for Acquisition and Image datatypes, and a reference cmakelist file for building out of tree gadgets. 
-
-This example also includes scaffolding for generating ReadTheDocs/Doxygen documentation for the included sample gadget, as well as performing integration tests on new data and configuration files using Gadgetron's test infrastructure.
+# gadgetron_simple_fft
+delor
 
 ## Included Samples/Templates
 
-### AcquisitionPassthroughChannelGadget
-ChannelGadget that accepts and returns Core::Acquisition, without modifying the acquisition at all
+### SimpleFFT_Python
+lorem
 
-### ImagePassthroughPureGadget
-PureGadget that accepts and returns Core::Image<complex<float>>, without modifying the image at all
-
-### ImageFixedScalePureGadget
-PureGadget that accepts and returns Core::Image<float> and has one parameter (scaleFactor). Uses an iterator to scale all pixels in the input image via multiplying by scaleFactor
-
-### ImageFixedScalePythonChannelGadget
-ChannelGadget that accepts and returns Core::Image<float> and has one parameter (scaleFactor). Uses a python script to perform scaling of all pixels in the input image via multiplying by scaleFactor. 
-
-### SaveImageToStorageServer
-ChannelGadget that saves incoming image data to the ISMRMRD Storage Server instance
-
-### LoadImageFromStorageServer
-ChannelGadget that loads previously-stored image data from the ISMRMRD Storage Server instance
+### SimpleFFT_CPP
+ipsum
 
 ## Getting Started
 

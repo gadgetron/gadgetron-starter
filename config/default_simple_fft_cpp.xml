@@ -27,12 +27,6 @@
         </gadget>
 
         <gadget>
-            <name>AcquisitionPassthroughChannelGadget</name>
-            <dll>gadgetron-starter</dll>
-            <classname>AcquisitionPassthroughChannelGadget</classname>
-        </gadget>
-
-        <gadget>
             <name>AccTrig</name>
             <dll>gadgetron_mricore</dll>
             <classname>AcquisitionAccumulateTriggerGadget</classname>
@@ -65,21 +59,9 @@
         </gadget>
 
         <gadget>
-            <name>SimpleRecon</name>
-            <dll>gadgetron_mricore</dll>
-            <classname>SimpleReconGadget</classname>
-        </gadget>
-
-        <gadget>
-            <name>ImageArraySplit</name>
-            <dll>gadgetron_mricore</dll>
-            <classname>ImageArraySplitGadget</classname>
-        </gadget>
-
-        <gadget>
-            <name>Extract</name>
-            <dll>gadgetron_mricore</dll>
-            <classname>ExtractGadget</classname>
+            <name>SimpleFFT_CPP</name>
+            <dll>gadgetron_simpleFFT</dll>
+            <classname>SimpleFFT_CPP</classname>
         </gadget>
 
         <gadget>

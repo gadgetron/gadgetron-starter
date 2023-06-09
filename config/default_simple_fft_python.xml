@@ -59,27 +59,9 @@
         </gadget>
 
         <gadget>
-            <name>SimpleRecon</name>
-            <dll>gadgetron_mricore</dll>
-            <classname>SimpleReconGadget</classname>
-        </gadget>
-
-        <gadget>
-            <name>ImageArraySplit</name>
-            <dll>gadgetron_mricore</dll>
-            <classname>ImageArraySplitGadget</classname>
-        </gadget>
-
-        <gadget>
-            <name>Extract</name>
-            <dll>gadgetron_mricore</dll>
-            <classname>ExtractGadget</classname>
-        </gadget>
-
-        <gadget>
-            <name>ImagePassthroughPureGadget</name>
-            <dll>gadgetron-starter</dll>
-            <classname>ImagePassthroughPureGadget</classname>
+            <name>SimpleFFT_Python</name>
+            <dll>gadgetron_simpleFFT</dll>
+            <classname>SimpleFFT_Python</classname>
         </gadget>
 
         <gadget>

@@ -1,7 +1,7 @@
 /*********************************************************************
- * @file  AcquisitionPassthroughChannelGadget.h
+ * @file  SimpleFFT_CPP.h
  * 
- * @brief Header of the class AcquisitionPassthroughChannelGadget.
+ * @brief Header of the class SimpleFFT_CPP
  *********************************************************************/
 
 #pragma once
@@ -13,17 +13,18 @@
 #include "Types.h"
 
 namespace Gadgetron{
-  class AcquisitionPassthroughChannelGadget : public Core::ChannelGadget<Core::Acquisition> 
+  class SimpleFFT_CPP : public Core::ChannelGadget<Core::Acquisition> 
     {
       public:
         using Core::ChannelGadget<Core::Acquisition>::ChannelGadget;
-        ~AcquisitionPassthroughChannelGadget() override = default;
+        ~SimpleFFT_CPP() override = default;
 
         /********************************************//**
-        * Accepts incoming acquisition data from an InputChannel and immediately pushes it out via an OutputChannel
+        * Accepts incoming acquisition data from an InputChannel, performs FFT recon,
+        * immediately pushes images out via an OutputChannel
         * with no changes to the data. 
         * @param input Input channel of type Acquisition
-        * @param out Output channel to pass unmodified acquisition data
+        * @param out Output channel to pass reconstructed image data
         ***********************************************/
         void process(Core::InputChannel<Core::Acquisition>& input, Core::OutputChannel& output) override; 
     };
