@@ -9,7 +9,10 @@
 namespace Gadgetron{
 
   void Gadgetron::SimpleFFT_CPP::process(Core::InputChannel<Core::Acquisition>& in, Core::OutputChannel& out) {
+      GDEBUG("PROCESS\n");
+
       for (auto acquisition : in) {
+        GDEBUG("ACQUISITION\n");
         // Get the header, image data, and trajectory for this acquisition
 		    auto &header = std::get<ISMRMRD::AcquisitionHeader>(acquisition);
         auto &data = std::get<hoNDArray<std::complex<float>>>(acquisition);

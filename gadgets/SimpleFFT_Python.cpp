@@ -6,13 +6,17 @@ namespace Gadgetron{
         boost::filesystem::path gadgetron_python_path = context.paths.gadgetron_home / "share" / "gadgetron" / "python";
         Gadgetron::initialize_python();
         Gadgetron::add_python_path(gadgetron_python_path.generic_string());
+        GDEBUG("INITIALIZE\n");
     }
 
     void Gadgetron::SimpleFFT_Python::process(Core::InputChannel<Core::Acquisition>& in, Core::OutputChannel& out) {
         // Create a local handle for the Python scaling function
         PythonFunction<hoNDArray<std::complex<float>>> SimpleFFT("SimpleFFT_Python", "SimpleFFT");                
+        GDEBUG("PROCESS\n");
 
         for (auto acquisition : in) {
+            GDEBUG("ACQUISITION\n");
+
             // Get the header, image data, and trajectory for this acquisition
 		    auto &header = std::get<ISMRMRD::AcquisitionHeader>(acquisition);
             auto &data = std::get<hoNDArray<std::complex<float>>>(acquisition);
