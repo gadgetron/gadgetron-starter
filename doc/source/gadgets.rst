@@ -1,20 +1,8 @@
 Gadgets
 ========
 
-.. doxygenclass:: Gadgetron::AcquisitionPassthroughChannelGadget
+.. doxygenclass:: Gadgetron::SimpleFFT_CPP
    :members:
 
-.. doxygenclass:: Gadgetron::ImageFixedScalePureGadget
-   :members:
-
-.. doxygenclass:: Gadgetron::ImageFixedScalePythonChannelGadget
-   :members:
-
-.. doxygenclass:: Gadgetron::ImagePassthroughPureGadget
-   :members:
-
-.. doxygenclass:: Gadgetron::LoadImageFromStorageServer
-   :members:
-
-.. doxygenclass:: Gadgetron::SaveImageToStorageServer
+.. doxygenclass:: Gadgetron::SimpleFFT_Python
    :members:

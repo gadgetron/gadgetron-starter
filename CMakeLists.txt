@@ -29,8 +29,8 @@ set(gadgetron_simpleFFT_python_files
 )
 
 set(gadgetron_simpleFFT_config_files
-        config/default_simple_fft_cpp.xml
-        config/default_simple_fft_python.xml
+        config/simple_fft_cpp.xml
+        config/simple_fft_python.xml
 )
 
 add_library(${NAME} SHARED
