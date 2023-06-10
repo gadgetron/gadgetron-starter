@@ -12,11 +12,8 @@ namespace Gadgetron{
     void Gadgetron::SimpleFFT_Python::process(Core::InputChannel<Core::Acquisition>& in, Core::OutputChannel& out) {
         // Create a local handle for the Python scaling function
         PythonFunction<hoNDArray<std::complex<float>>> SimpleFFT("SimpleFFT_Python", "SimpleFFT");                
-        GDEBUG("PROCESS\n");
 
         for (auto acquisition : in) {
-            GDEBUG("ACQUISITION\n");
-
             // Get the header, image data, and trajectory for this acquisition
 		    auto &header = std::get<ISMRMRD::AcquisitionHeader>(acquisition);
             auto &data = std::get<hoNDArray<std::complex<float>>>(acquisition);
@@ -26,7 +23,14 @@ namespace Gadgetron{
             auto image = SimpleFFT(header, data);
 
             // Output the acquisition
-            out.push(Core::Image<std::complex<float>>(ISMRMRD::ImageHeader(), std::move(data), std::optional<ISMRMRD::MetaContainer>()));
+            auto imageHeader = ISMRMRD::ImageHeader();
+            imageHeader.matrix_size[0] = 256;
+            imageHeader.matrix_size[1] = 256;
+            imageHeader.matrix_size[2] = 60;
+            imageHeader.channels = 1;
+            imageHeader.set = 0;
+
+            out.push(Core::Image<std::complex<float>>(imageHeader, std::move(data), std::optional<ISMRMRD::MetaContainer>()));
         }  
     }
 

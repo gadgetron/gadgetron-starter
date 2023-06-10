@@ -96,5 +96,6 @@
         "CMAKE_INSTALL_PREFIX": "/opt/conda/envs/gadgetron/bin"
     },
     "doxygen_runner.configuration_file_override": "${workspaceFolder}/doc/doxygen/Doxyfile.in",
+    "C_Cpp.default.compilerPath": "/workspaces/gadgetron-starter/gadgets/SimpleFFT_CPP.cpp",
 
 }
