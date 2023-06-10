@@ -15,22 +15,19 @@ find_package(ISMRMRD REQUIRED)
 find_package(Python3 COMPONENTS Development NumPy REQUIRED)
 
 set(gadgetron_simpleFFT_header_files
-        gadgets/SimpleFFT_Python.h
-        gadgets/SimpleFFT_CPP.h
+        gadgets/SimpleFFT.h
 )
 
 set(gadgetron_simpleFFT_src_files
-        gadgets/SimpleFFT_Python.cpp
-        gadgets/SimpleFFT_CPP.cpp
+        gadgets/SimpleFFT.cpp
 )
 
 set(gadgetron_simpleFFT_python_files
-        gadgets/SimpleFFT_Python.py
+        gadgets/SimpleFFT.py
 )
 
 set(gadgetron_simpleFFT_config_files
-        config/simple_fft_cpp.xml
-        config/simple_fft_python.xml
+        config/SimpleFFT.xml
 )
 
 add_library(${NAME} SHARED

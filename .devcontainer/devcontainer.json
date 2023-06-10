@@ -55,7 +55,8 @@
 		"ms-python.python",
 		"oderwat.indent-rainbow",
 		"timonwong.shellcheck", 
-		"betwo.vscode-doxygen-runner"
+		"betwo.vscode-doxygen-runner",
+		"h5web.vscode-h5web"
 	],
 	// Use the non-root user
 	"remoteUser": "vscode",

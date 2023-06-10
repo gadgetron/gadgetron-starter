@@ -8,12 +8,12 @@
 #include "python_toolbox.h"
 
 namespace Gadgetron{
-  class SimpleFFT_Python : public Core::ChannelGadget<Core::Acquisition> 
+  class SimpleFFT : public Core::ChannelGadget<IsmrmrdReconData> 
     {
       public:
-        using Core::ChannelGadget<Core::Acquisition>::ChannelGadget;
-        SimpleFFT_Python(const Core::Context& context, const Core::GadgetProperties& props);
-        ~SimpleFFT_Python() override = default;
+        using Core::ChannelGadget<IsmrmrdReconData>::ChannelGadget;
+        SimpleFFT(const Core::Context& context, const Core::GadgetProperties& props);
+        ~SimpleFFT() override = default;
         
         /********************************************//**
         * Accepts incoming image data from an InputChannel, performs FFT recon using python, and returns
@@ -21,6 +21,8 @@ namespace Gadgetron{
         * @param input Input channel of type Acquisition
         * @param out Output channel to pass reconstructed images
         ***********************************************/
-        void process(Core::InputChannel<Core::Acquisition>& input, Core::OutputChannel& output) override;
+        void process(Core::InputChannel<IsmrmrdReconData>& input, Core::OutputChannel& output) override;
+      protected:
+        Gadgetron::Core::Context::Header header;
     };
 }

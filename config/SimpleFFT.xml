@@ -59,9 +59,9 @@
         </gadget>
 
         <gadget>
-            <name>SimpleFFT_CPP</name>
+            <name>SimpleFFT</name>
             <dll>gadgetron_simpleFFT</dll>
-            <classname>SimpleFFT_CPP</classname>
+            <classname>SimpleFFT</classname>
         </gadget>
 
         <gadget>
