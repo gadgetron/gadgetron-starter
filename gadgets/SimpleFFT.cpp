@@ -7,7 +7,6 @@ namespace Gadgetron{
         Gadgetron::initialize_python();
         Gadgetron::add_python_path(gadgetron_python_path.generic_string());
         header = context.header;
-        GDEBUG("INITIALIZE\n");
     }
 
     void Gadgetron::SimpleFFT::process(Core::InputChannel<IsmrmrdReconData>& in, Core::OutputChannel& out) {

@@ -1,0 +1,7 @@
+/workspaces/gadgetron-starter/test/CMakeFiles/install/strip.dir
+/workspaces/gadgetron-starter/test/CMakeFiles/install/local.dir
+/workspaces/gadgetron-starter/test/CMakeFiles/install.dir
+/workspaces/gadgetron-starter/test/CMakeFiles/list_install_components.dir
+/workspaces/gadgetron-starter/test/CMakeFiles/rebuild_cache.dir
+/workspaces/gadgetron-starter/test/CMakeFiles/edit_cache.dir
+/workspaces/gadgetron-starter/test/CMakeFiles/gadgetron_simpleFFT.dir

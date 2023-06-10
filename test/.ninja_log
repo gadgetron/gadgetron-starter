@@ -1,0 +1,10 @@
+# ninja log v5
+0	9223	1686433469235482223	CMakeFiles/gadgetron_simpleFFT.dir/gadgets/SimpleFFT.cpp.o	25fea76319aa2385
+9227	9362	1686433469391479036	libgadgetron_simpleFFT.so	e8df8926da03b8d4
+9362	9372	0	CMakeFiles/install.util	9f78068369d03d85
+8	17	0	CMakeFiles/install.util	9f78068369d03d85
+8	17	0	CMakeFiles/install.util	9f78068369d03d85
+8	17	0	CMakeFiles/install.util	9f78068369d03d85
+8	17	0	CMakeFiles/install.util	9f78068369d03d85
+8	17	0	CMakeFiles/install.util	9f78068369d03d85
+8	17	0	CMakeFiles/install.util	9f78068369d03d85

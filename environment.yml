@@ -5,5 +5,5 @@ channels:
   - nvidia
 dependencies:
   - gadgetron=4.4.7
-  - pytorch=2.0.1
-  - pytorch-cuda=11.7
+  - pytorch=1.13.1
+  - pytorch-cuda=11.6
