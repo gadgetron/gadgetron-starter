@@ -1,6 +1,9 @@
 name: gadgetron
 channels:
   - gadgetron
+  - pytorch
+  - nvidia
 dependencies:
   - gadgetron=4.4.7
-  
+  - pytorch=2.0.1
+  - pytorch-cuda=11.7
